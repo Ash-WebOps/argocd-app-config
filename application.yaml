@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Ash-WebOps/argocd-app-config
     targetRevision: HEAD
-    path: main
+    path: .
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
